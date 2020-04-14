@@ -33,7 +33,7 @@ function App() {
           <Route
             exact
             path="/mobileapps"
-            component={() => <div> Mobile Apps </div>}
+            component={() => <div> Android/IOS App Development </div>}
           />
           <Route
             exact
