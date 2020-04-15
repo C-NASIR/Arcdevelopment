@@ -232,6 +232,7 @@ export default function Header(props) {
           className={classes.Button}
           component={Link}
           to="/estimate"
+          onClick={() => props.setValue(5)}
         >
           Free Estimate
         </Button>
